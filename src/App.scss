@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+*{
+    z-index: 4;
+}
+
+.a_p_p_{
+    &Background{
+        // position: absolute;
+        height:500px;
+        width:500px;
+        
+    }
+
+    &Pod{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    &Animals{
+        z-index: 5;
+        background-color: rgba(0,0,0,0.5);
+    }
+}

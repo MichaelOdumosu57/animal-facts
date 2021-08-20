@@ -1,9 +1,9 @@
 // @ts-nocheck
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import { animals } from './animals';
-
+import {mediaPrefix} from './customExports'
 
 
 const title = "";
@@ -32,16 +32,16 @@ const images = Object.entries(animals)
 })
 // 
 
-const background = <img className="background" alt="ocean" src ="images/ocean.jpg"/>;
+const background = <img className="background a_p_p_Background" alt="ocean" src ={mediaPrefix({media:'ocean.jpg'})}/>;
 const showBackground = true;
 const animalFacts = (
-  <div>
+  <div className ="a_p_p_Pod">
       <h1>{title === "" ?"Click an animal for a fun fact" :title}</h1>
-      {showBackground && background}
-      <div className="animals">
+      <div className="animals a_p_p_Animals">
           {images}
       </div>
       <p id ="fact"></p>
+      {showBackground && background}
   </div>
 );
 

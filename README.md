@@ -1,46 +1,136 @@
-# Getting Started with Create React App
+# Summary
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Features include 
 
-In the project directory, you can run:
+Only members of the project can read the README.md from the ignore folder
 
-### `npm start`
+# Stack 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Frontend
+* Reactjs 17.0.2
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Backend
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Testing
+* Docker, (tes in docker containers from linux VM) v20.10.7
 
-### `npm run build`
+### Unit
+* rspec    v3.10.0
+* capybara v3.35.3
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Integration
+* rspec    v3.10.0
+* capybara v3.35.3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### E2E
+* rspec    v3.10.0
+* capybara v3.35.3
+* puffing billy v2.4.1
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Hosting
 
-### `npm run eject`
+### CMS
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## CI/CD
+* CircleCI
+* Docker v20.10.7
+* Virtual Box v 6.1.22
+* Ubuntu VM 20.04.1
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Linting Rules
+* for each commit, we append "WORKING COMMIT" so we know the commit is free of bugs
+* ruby indentation 2 lines
+* ts indentation 4 lines
+* we prefix all our styles with "a_p_p_" a judima methodlogy so as not to confunse with 3rd party libs
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Project Directory Mapping
+
+### Frotend
+#### Configurations
+
+
+### Backend
+
+#### Configurations
+* refer to README.md in ignore
+
+
+### Testing 
+
+### CI/CD
+
+
+### Issues
+
+### Future Plans
+refer to README.md in ignore
+
+
+## Site Navigation
+
+
+### Home Page 
+
+
+# Aspects
+
+## Challenges
+* any time i faced an issue I thought in terms of angular
+
+## Mistakes/Failures
+* forget to create-react-app with typescript
+
+## Enjoyed
+
+## Leadership
+
+## Conflict
+* hard to work with scss mabye
+* using images is rather difficult very simple in angular
+
+## Done Different
+
+
+# Issues 
+* everything needs lazyloading, 
+* assets have to be in several places for this app to work
+* reload not as good as angular
+
+# TODO
+
+## Template Updates
+
+
+# Resources
+
+## Snippets
+* build an image
+```sh
+sudo docker build -t windmillcode/angular-tornado-capybara:0.1.9 ruby-python-node
+```
+
+
+
+## Media 
+<!-- bunch of links -->
+
+Photo by Sebastian Voortman from Pexels
+
+
+
+
+
+
+
+
+
+
+
